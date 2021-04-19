@@ -11,9 +11,10 @@ class Paddle(Turtle):
         self.goto(position)
 
     def move_right(self):
-        self.forward(30)
+        # Add paddle boundaries
+        if self.xcor() < 220:
+            self.forward(30)
 
     def move_left(self):
-        self.backward(30)
-
-
+        if self.xcor() > -220:
+            self.backward(30)
