@@ -4,10 +4,10 @@ A clone of the 80s hit game Breakout using Python Turtle
 ## Technologies
 - [Turtle Graphics](https://docs.python.org/3/library/turtle.html#module-turtle)
 
-## Installation (cmd.exe)
+## Installation
 ```
-C:\Users>git clone 'https://github.com/Zike01/breakout-game.git'
-C:\Users>cd breakout-game
+git clone https://github.com/Zike01/breakout-game.git
+cd breakout-game
 ```
 Download the required font
 ```
